@@ -1,0 +1,436 @@
+{
+  "id": "dsa",
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "Programming Fundamentals",
+      "nodes": [
+        {
+          "id": "n-lang-syntax",
+          "title": "Language Syntax",
+          "description": "Pick one language — Java, C++, Python, or JavaScript. Master variables, data types, operators, and basic I/O.",
+          "difficulty": "Easy",
+          "estimatedHours": 6,
+          "resources": [
+            { "type": "course", "title": "Python for Beginners", "url": "https://www.learnpython.org/", "source": "LearnPython" },
+            { "type": "course", "title": "Java Tutorial", "url": "https://www.w3schools.com/java/", "source": "W3Schools" },
+            { "type": "course", "title": "C++ Tutorial", "url": "https://www.learn-cpp.org/", "source": "LearnCPP" },
+            { "type": "course", "title": "JavaScript Tutorial", "url": "https://www.w3schools.com/js/", "source": "W3Schools" }
+          ],
+          "prerequisites": [],
+          "nextNodes": ["n-control", "n-functions"]
+        },
+        {
+          "id": "n-control",
+          "title": "Control Structures & Loops",
+          "description": "Loops (for, while), conditionals (if-else, switch), and control flow.",
+          "difficulty": "Easy",
+          "estimatedHours": 4,
+          "resources": [
+            { "type": "course", "title": "Python Control Structures", "url": "https://www.learnpython.org/en/Loops", "source": "LearnPython" },
+            { "type": "course", "title": "Java Control Structures", "url": "https://www.w3schools.com/java/java_conditions.asp", "source": "W3Schools" },
+            { "type": "course", "title": "JavaScript Control Flow", "url": "https://www.w3schools.com/js/js_if_else.asp", "source": "W3Schools" }
+          ],
+          "prerequisites": ["n-lang-syntax"],
+          "nextNodes": ["n-functions"]
+        },
+        {
+          "id": "n-functions",
+          "title": "Functions & Recursion",
+          "description": "Reusable blocks of code, parameters, return values, and recursion basics.",
+          "difficulty": "Easy",
+          "estimatedHours": 5,
+          "resources": [
+            { "type": "course", "title": "Python Functions", "url": "https://www.learnpython.org/en/Functions", "source": "LearnPython" },
+            { "type": "course", "title": "Java Methods", "url": "https://www.w3schools.com/java/java_methods.asp", "source": "W3Schools" },
+            { "type": "practice", "title": "LeetCode Recursion Problems", "url": "https://leetcode.com/tag/recursion/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-control"],
+          "nextNodes": ["n-oop", "n-arrays"]
+        },
+        {
+          "id": "n-oop",
+          "title": "OOP Basics",
+          "description": "Classes, objects, inheritance, polymorphism, and encapsulation.",
+          "difficulty": "Easy",
+          "estimatedHours": 6,
+          "resources": [
+            { "type": "course", "title": "Python OOP", "url": "https://www.learnpython.org/en/Object_Oriented_Programming", "source": "LearnPython" },
+            { "type": "course", "title": "Java OOP", "url": "https://www.w3schools.com/java/java_oop.asp", "source": "W3Schools" },
+            { "type": "video", "title": "OOP in Java — Kunal Kushwaha", "url": "https://www.youtube.com/watch?v=BSVKUk58K6U", "source": "YouTube" }
+          ],
+          "prerequisites": ["n-functions"],
+          "nextNodes": ["n-arrays"]
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "Data Structures",
+      "nodes": [
+        {
+          "id": "n-arrays",
+          "title": "Arrays & Strings",
+          "description": "Collections of elements in contiguous memory. Master access, insertion, deletion, searching, 2D arrays, and dynamic arrays.",
+          "difficulty": "Easy",
+          "estimatedHours": 10,
+          "practiceProblems": [
+            "Two Sum", "Best Time to Buy & Sell Stock", "Maximum Subarray",
+            "Rotate Array", "Merge Intervals", "Product of Array Except Self",
+            "3Sum", "Container With Most Water", "Trapping Rain Water",
+            "Longest Consecutive Sequence"
+          ],
+          "resources": [
+            { "type": "video", "title": "Arrays Full Playlist — Striver", "url": "https://www.youtube.com/watch?v=37E9ckMDdTk&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Arrays", "url": "https://leetcode.com/tag/array/", "source": "LeetCode" },
+            { "type": "practice", "title": "LeetCode Strings", "url": "https://leetcode.com/tag/string/", "source": "LeetCode" },
+            { "type": "course", "title": "JavaScript Arrays — MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array", "source": "MDN" }
+          ],
+          "prerequisites": ["n-functions"],
+          "nextNodes": ["n-linked-list", "n-hashing"]
+        },
+        {
+          "id": "n-linked-list",
+          "title": "Linked Lists",
+          "description": "Singly, doubly, and circular linked lists. Understand pointer manipulation and dynamic memory.",
+          "difficulty": "Easy",
+          "estimatedHours": 8,
+          "practiceProblems": [
+            "Reverse a Linked List", "Detect Cycle (Floyd's)", "Merge Two Sorted Lists",
+            "Remove Nth Node From End", "Intersection of Two Linked Lists",
+            "Palindrome Linked List", "LRU Cache", "Clone with Random Pointers",
+            "Reverse Nodes in k-Group", "Merge k Sorted Lists"
+          ],
+          "resources": [
+            { "type": "video", "title": "Linked List Playlist — Striver", "url": "https://www.youtube.com/watch?v=Nq7ok-OyEpg&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Linked List", "url": "https://leetcode.com/tag/linked-list/", "source": "LeetCode" },
+            { "type": "article", "title": "Linked List — Programiz", "url": "https://www.programiz.com/dsa/linked-list", "source": "Programiz" }
+          ],
+          "prerequisites": ["n-arrays"],
+          "nextNodes": ["n-stacks", "n-trees"]
+        },
+        {
+          "id": "n-stacks",
+          "title": "Stacks & Queues",
+          "description": "LIFO (Stack) and FIFO (Queue) structures. Monotonic stack, priority queues, and deques.",
+          "difficulty": "Easy",
+          "estimatedHours": 7,
+          "practiceProblems": [
+            "Valid Parentheses", "Min Stack", "Implement Queue using Stacks",
+            "Next Greater Element", "Largest Rectangle in Histogram",
+            "Daily Temperatures", "Decode String", "Basic Calculator",
+            "Asteroid Collision", "Sliding Window Maximum"
+          ],
+          "resources": [
+            { "type": "video", "title": "Stack & Queue — Striver A2Z", "url": "https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Stack", "url": "https://leetcode.com/tag/stack/", "source": "LeetCode" },
+            { "type": "practice", "title": "LeetCode Queue", "url": "https://leetcode.com/tag/queue/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-arrays"],
+          "nextNodes": ["n-trees"]
+        },
+        {
+          "id": "n-hashing",
+          "title": "Hash Tables & Maps",
+          "description": "Key-value mapping using hash functions. Collision resolution: chaining and open addressing.",
+          "difficulty": "Easy",
+          "estimatedHours": 6,
+          "practiceProblems": [
+            "Two Sum", "Longest Substring Without Repeating Characters",
+            "Group Anagrams", "Subarray Sum Equals K", "Top K Frequent Elements",
+            "Find All Anagrams", "Minimum Window Substring"
+          ],
+          "resources": [
+            { "type": "video", "title": "Hashing — NeetCode", "url": "https://www.youtube.com/watch?v=KyUTuwz_b7Q", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Hash Table", "url": "https://leetcode.com/tag/hash-table/", "source": "LeetCode" },
+            { "type": "article", "title": "Hash Table — Programiz", "url": "https://www.programiz.com/dsa/hash-table", "source": "Programiz" }
+          ],
+          "prerequisites": ["n-arrays"],
+          "nextNodes": ["n-trees"]
+        },
+        {
+          "id": "n-trees",
+          "title": "Trees",
+          "description": "Binary trees, BST, AVL trees. In-order, Pre-order, Post-order, Level-order traversals.",
+          "difficulty": "Medium",
+          "estimatedHours": 14,
+          "practiceProblems": [
+            "Maximum Depth of Binary Tree", "Validate BST", "Invert Binary Tree",
+            "Level Order Traversal", "Lowest Common Ancestor", "Serialize/Deserialize",
+            "Diameter of Binary Tree", "Binary Tree Zigzag Traversal",
+            "Kth Smallest in BST", "Binary Tree Maximum Path Sum"
+          ],
+          "resources": [
+            { "type": "video", "title": "Trees Full Playlist — Striver", "url": "https://www.youtube.com/watch?v=0jGZnKEAK9Y&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Trees", "url": "https://leetcode.com/tag/binary-tree/", "source": "LeetCode" },
+            { "type": "article", "title": "Binary Tree — Programiz", "url": "https://www.programiz.com/dsa/binary-tree", "source": "Programiz" },
+            { "type": "video", "title": "Trees — NeetCode", "url": "https://www.youtube.com/watch?v=OnSn2XEQ4MY", "source": "YouTube" }
+          ],
+          "prerequisites": ["n-linked-list"],
+          "nextNodes": ["n-heaps", "n-graphs"]
+        },
+        {
+          "id": "n-heaps",
+          "title": "Heaps & Priority Queues",
+          "description": "Min-heap and max-heap. Heap sort, kth largest element, median of data streams.",
+          "difficulty": "Medium",
+          "estimatedHours": 7,
+          "practiceProblems": [
+            "Kth Largest Element in Array", "Top K Frequent Elements",
+            "Find Median from Data Stream", "Merge K Sorted Lists",
+            "Task Scheduler", "Find K Closest Points"
+          ],
+          "resources": [
+            { "type": "video", "title": "Heap — Striver", "url": "https://www.youtube.com/watch?v=AE5I0xACpZs&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Heap", "url": "https://leetcode.com/tag/heap-priority-queue/", "source": "LeetCode" },
+            { "type": "article", "title": "Heap Data Structure — Programiz", "url": "https://www.programiz.com/dsa/heap-data-structure", "source": "Programiz" }
+          ],
+          "prerequisites": ["n-trees"],
+          "nextNodes": ["n-graphs"]
+        },
+        {
+          "id": "n-graphs",
+          "title": "Graphs",
+          "description": "BFS, DFS, Dijkstra, Bellman-Ford, Topological Sort, Union-Find, MST (Prim's, Kruskal's).",
+          "difficulty": "Hard",
+          "estimatedHours": 18,
+          "practiceProblems": [
+            "Number of Islands", "Clone Graph", "Course Schedule",
+            "Word Ladder", "Dijkstra's Algorithm", "Topological Sort",
+            "Network Delay Time", "Cheapest Flights K Stops",
+            "Reconstruct Itinerary", "Critical Connections"
+          ],
+          "resources": [
+            { "type": "video", "title": "Graph Full Series — Striver", "url": "https://www.youtube.com/watch?v=M3KTWnTrU_c&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "video", "title": "Graph Algorithms — NeetCode", "url": "https://www.youtube.com/watch?v=EgI5nU9etnU", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Graph", "url": "https://leetcode.com/tag/graph/", "source": "LeetCode" },
+            { "type": "article", "title": "Graph — Programiz", "url": "https://www.programiz.com/dsa/graph", "source": "Programiz" }
+          ],
+          "prerequisites": ["n-trees", "n-hashing"],
+          "nextNodes": ["n-dp", "n-advanced-ds"]
+        },
+        {
+          "id": "n-tries",
+          "title": "Tries (Prefix Trees)",
+          "description": "Character-by-character prefix tree for efficient string searching.",
+          "difficulty": "Medium",
+          "estimatedHours": 5,
+          "practiceProblems": [
+            "Implement Trie", "Word Search II",
+            "Design Add and Search Words", "Search Autocomplete System"
+          ],
+          "resources": [
+            { "type": "video", "title": "Trie — NeetCode", "url": "https://www.youtube.com/watch?v=oobqoCJlHA0", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Trie", "url": "https://leetcode.com/tag/trie/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-hashing"],
+          "nextNodes": ["n-advanced-ds"]
+        },
+        {
+          "id": "n-advanced-ds",
+          "title": "Advanced Data Structures",
+          "description": "Segment trees (range queries), Fenwick trees (prefix sums), Union-Find, suffix arrays.",
+          "difficulty": "Hard",
+          "estimatedHours": 12,
+          "practiceProblems": [
+            "Range Sum Query (Segment Tree)", "Count of Smaller Numbers After Self",
+            "Number of Islands II (Union-Find)", "Redundant Connection"
+          ],
+          "resources": [
+            { "type": "video", "title": "Segment Tree — William Fiset", "url": "https://www.youtube.com/watch?v=ZBHKZF5w4YU", "source": "YouTube" },
+            { "type": "video", "title": "Union Find — NeetCode", "url": "https://www.youtube.com/watch?v=8f1XPm4WOUc", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Segment Tree", "url": "https://leetcode.com/tag/segment-tree/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-graphs", "n-tries"],
+          "nextNodes": ["n-dp"]
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "Algorithms",
+      "nodes": [
+        {
+          "id": "n-sorting",
+          "title": "Sorting Algorithms",
+          "description": "Bubble, Merge, Quick, Insertion, Selection, Heap Sort. Time complexities and stability.",
+          "difficulty": "Easy",
+          "estimatedHours": 8,
+          "resources": [
+            { "type": "video", "title": "Sorting Algorithms Visualized", "url": "https://www.youtube.com/watch?v=RfXt_qHDEPw", "source": "YouTube" },
+            { "type": "article", "title": "Sorting — Programiz", "url": "https://www.programiz.com/dsa/sorting-algorithm", "source": "Programiz" },
+            { "type": "practice", "title": "LeetCode Sorting", "url": "https://leetcode.com/tag/sorting/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-arrays"],
+          "nextNodes": ["n-binary-search"]
+        },
+        {
+          "id": "n-binary-search",
+          "title": "Binary Search",
+          "description": "Classic binary search and advanced variations — search on answer, rotated arrays.",
+          "difficulty": "Medium",
+          "estimatedHours": 6,
+          "practiceProblems": [
+            "Binary Search", "Search in Rotated Sorted Array",
+            "Find Minimum in Rotated Sorted Array", "Search a 2D Matrix",
+            "Median of Two Sorted Arrays", "Koko Eating Bananas"
+          ],
+          "resources": [
+            { "type": "video", "title": "Binary Search — Striver", "url": "https://www.youtube.com/watch?v=W9QJ8HaRvJQ&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Binary Search", "url": "https://leetcode.com/tag/binary-search/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-sorting"],
+          "nextNodes": ["n-two-pointers", "n-sliding-window"]
+        },
+        {
+          "id": "n-two-pointers",
+          "title": "Two Pointers",
+          "description": "Efficient O(n) solutions using two indices moving toward each other or in the same direction.",
+          "difficulty": "Medium",
+          "estimatedHours": 5,
+          "practiceProblems": [
+            "3Sum", "Container With Most Water", "Trapping Rain Water",
+            "Remove Duplicates from Sorted Array", "Valid Palindrome"
+          ],
+          "resources": [
+            { "type": "practice", "title": "LeetCode Two Pointers", "url": "https://leetcode.com/tag/two-pointers/", "source": "LeetCode" },
+            { "type": "video", "title": "Two Pointers Pattern — NeetCode", "url": "https://www.youtube.com/watch?v=on9p-c7K2Bk", "source": "YouTube" }
+          ],
+          "prerequisites": ["n-binary-search"],
+          "nextNodes": ["n-sliding-window"]
+        },
+        {
+          "id": "n-sliding-window",
+          "title": "Sliding Window",
+          "description": "Maintain a window of elements over an array/string to find optimal subarrays in O(n).",
+          "difficulty": "Medium",
+          "estimatedHours": 5,
+          "practiceProblems": [
+            "Longest Substring Without Repeating Characters",
+            "Minimum Window Substring", "Sliding Window Maximum",
+            "Longest Subarray With Ones After Replacement",
+            "Permutation in String"
+          ],
+          "resources": [
+            { "type": "practice", "title": "LeetCode Sliding Window", "url": "https://leetcode.com/problem-list/sliding-window/", "source": "LeetCode" },
+            { "type": "video", "title": "Sliding Window — NeetCode", "url": "https://www.youtube.com/watch?v=p-ss2JNBmSA", "source": "YouTube" }
+          ],
+          "prerequisites": ["n-two-pointers"],
+          "nextNodes": ["n-greedy"]
+        },
+        {
+          "id": "n-greedy",
+          "title": "Greedy Algorithms",
+          "description": "Make locally optimal choices at each step. Fractional Knapsack, Activity Selection, Huffman coding.",
+          "difficulty": "Medium",
+          "estimatedHours": 7,
+          "practiceProblems": [
+            "Jump Game", "Jump Game II", "Gas Station",
+            "Task Scheduler", "Minimum Number of Arrows",
+            "Merge Intervals", "Non-overlapping Intervals"
+          ],
+          "resources": [
+            { "type": "video", "title": "Greedy — Striver", "url": "https://www.youtube.com/watch?v=3PEl-bOHNOQ&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Greedy", "url": "https://leetcode.com/tag/greedy/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-sliding-window"],
+          "nextNodes": ["n-dp"]
+        },
+        {
+          "id": "n-dp",
+          "title": "Dynamic Programming",
+          "description": "Memoization and tabulation. 1D DP, 2D DP, DP on strings, trees, and interval DP.",
+          "difficulty": "Hard",
+          "estimatedHours": 20,
+          "practiceProblems": [
+            "Climbing Stairs", "House Robber", "Coin Change",
+            "Longest Increasing Subsequence", "Longest Common Subsequence",
+            "0/1 Knapsack", "Word Break", "Edit Distance",
+            "Burst Balloons", "Partition Equal Subset Sum",
+            "Palindrome Partitioning", "Distinct Subsequences"
+          ],
+          "resources": [
+            { "type": "video", "title": "DP Series — Striver (50 problems)", "url": "https://www.youtube.com/watch?v=FfXoiwwnxFw&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY", "source": "YouTube" },
+            { "type": "video", "title": "DP — NeetCode", "url": "https://www.youtube.com/watch?v=vYquumk4nWw", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Dynamic Programming", "url": "https://leetcode.com/problem-list/dynamic-programming/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-greedy", "n-graphs"],
+          "nextNodes": ["n-backtracking", "n-bit-manipulation"]
+        },
+        {
+          "id": "n-backtracking",
+          "title": "Backtracking",
+          "description": "Try all possibilities with pruning. N-Queens, Sudoku, permutations, subsets.",
+          "difficulty": "Hard",
+          "estimatedHours": 8,
+          "practiceProblems": [
+            "Subsets", "Permutations", "Combination Sum",
+            "N-Queens", "Sudoku Solver", "Word Search",
+            "Palindrome Partitioning", "Graph Coloring"
+          ],
+          "resources": [
+            { "type": "video", "title": "Backtracking — Striver", "url": "https://www.youtube.com/watch?v=B2o3HEm4MhI&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Backtracking", "url": "https://leetcode.com/problem-list/backtracking/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-dp"],
+          "nextNodes": ["n-bit-manipulation"]
+        },
+        {
+          "id": "n-bit-manipulation",
+          "title": "Bit Manipulation",
+          "description": "AND, OR, XOR, shifts. Power of 2, count set bits, missing number, single number.",
+          "difficulty": "Medium",
+          "estimatedHours": 5,
+          "practiceProblems": [
+            "Single Number", "Number of 1 Bits", "Reverse Bits",
+            "Missing Number", "Power of Two", "Sum of Two Integers",
+            "Counting Bits", "Maximum XOR of Two Numbers"
+          ],
+          "resources": [
+            { "type": "video", "title": "Bit Manipulation — Striver", "url": "https://www.youtube.com/watch?v=5rtVTYAk9KQ&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "source": "YouTube" },
+            { "type": "practice", "title": "LeetCode Bit Manipulation", "url": "https://leetcode.com/tag/bit-manipulation/", "source": "LeetCode" }
+          ],
+          "prerequisites": ["n-arrays"],
+          "nextNodes": []
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Complexity & Patterns",
+      "nodes": [
+        {
+          "id": "n-complexity",
+          "title": "Time & Space Complexity",
+          "description": "Big-O, Big-Ω, Big-Θ notation. Common runtimes: O(1), O(log n), O(n), O(n²), O(2ⁿ).",
+          "difficulty": "Easy",
+          "estimatedHours": 4,
+          "resources": [
+            { "type": "article", "title": "Big-O Cheat Sheet", "url": "https://www.bigocheatsheet.com/", "source": "BigOCheatSheet" },
+            { "type": "article", "title": "Time Complexity — FreeCodeCamp", "url": "https://www.freecodecamp.org/news/time-complexity-of-algorithms/", "source": "FreeCodeCamp" }
+          ],
+          "prerequisites": [],
+          "nextNodes": []
+        }
+      ]
+    }
+  ],
+  "practiceLinks": [
+    { "platform": "LeetCode", "url": "https://leetcode.com/", "description": "Primary practice platform" },
+    { "platform": "HackerRank", "url": "https://www.hackerrank.com/", "description": "Coding challenges" },
+    { "platform": "Codeforces", "url": "https://codeforces.com/", "description": "Competitive programming" },
+    { "platform": "CodeChef", "url": "https://www.codechef.com/", "description": "Indian competitive programming" },
+    { "platform": "AtCoder", "url": "https://atcoder.jp/", "description": "Japanese CP platform" },
+    { "platform": "InterviewBit", "url": "https://www.interviewbit.com/", "description": "Interview focused practice" }
+  ],
+  "freeMaterial": [
+    { "title": "Complete Free DSA Material (Google Drive)", "url": "https://drive.google.com/file/d/1uvQy3xNg48sJ1nFClwDZiNUBoqd8Noyd/view?usp=drive_link" },
+    { "title": "Top 50 DSA Interview Questions (Google Doc)", "url": "https://docs.google.com/document/d/1KJpARE69PrLluHwknQcfpirbDAN53SjIfUrYjILy4bk/edit?usp=drive_link" }
+  ],
+  "youtubePlaylistsBySeries": [
+    { "title": "DSA with Java", "url": "https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d", "channel": "Kunal Kushwaha" },
+    { "title": "DSA with C++", "url": "https://www.youtube.com/watch?v=0bHoB32fuj0&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "channel": "Striver" },
+    { "title": "DSA with Python", "url": "https://www.youtube.com/watch?v=aWKEBEg55ps&list=PLKYEe2WisBTFEr6laH5bR2J19j7sl5O8R", "channel": "Apna College" },
+    { "title": "DSA with JavaScript", "url": "https://www.youtube.com/watch?v=PbQPUPpM1vc&list=PLKhlp2qtUcSZtJefDThsXcsAbRBCSTgW4", "channel": "Hitesh Choudhary" }
+  ]
+}

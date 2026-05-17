@@ -1,0 +1,112 @@
+[
+  {
+    "id": "gr-1",
+    "owner": "jwasham",
+    "repo": "coding-interview-university",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "topic": "DSA",
+    "stars": 308000,
+    "language": "Multiple",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "tags": ["CS", "Interview", "FAANG"]
+  },
+  {
+    "id": "gr-2",
+    "owner": "donnemartin",
+    "repo": "system-design-primer",
+    "description": "Learn how to design large-scale systems. Prep for the system design interview.",
+    "topic": "System Design",
+    "stars": 283000,
+    "language": "Python",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "tags": ["System Design", "HLD", "Scalability"]
+  },
+  {
+    "id": "gr-3",
+    "owner": "kamranahmedse",
+    "repo": "developer-roadmap",
+    "description": "Interactive roadmaps, guides and other educational content to help developers grow.",
+    "topic": "Career",
+    "stars": 307000,
+    "language": "TypeScript",
+    "url": "https://github.com/kamranahmedse/developer-roadmap",
+    "tags": ["Roadmap", "Career", "Web Dev"]
+  },
+  {
+    "id": "gr-4",
+    "owner": "ashishps1",
+    "repo": "awesome-leetcode-resources",
+    "description": "Awesome LeetCode resources to learn DSA and prepare for coding interviews.",
+    "topic": "DSA",
+    "stars": 9200,
+    "language": "Multiple",
+    "url": "https://github.com/ashishps1/awesome-leetcode-resources",
+    "tags": ["LeetCode", "DSA", "Resources"]
+  },
+  {
+    "id": "gr-5",
+    "owner": "yangshun",
+    "repo": "tech-interview-handbook",
+    "description": "Curated coding interview preparation materials for busy software engineers.",
+    "topic": "Interview",
+    "stars": 120000,
+    "language": "JavaScript",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "tags": ["Interview", "Resume", "Behavioral"]
+  },
+  {
+    "id": "gr-6",
+    "owner": "TheAlgorithms",
+    "repo": "Python",
+    "description": "All algorithms implemented in Python — for education.",
+    "topic": "Algorithms",
+    "stars": 196000,
+    "language": "Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "tags": ["Algorithms", "Python", "Education"]
+  },
+  {
+    "id": "gr-7",
+    "owner": "trekhleb",
+    "repo": "javascript-algorithms",
+    "description": "Algorithms and data structures implemented in JavaScript with explanations.",
+    "topic": "DSA",
+    "stars": 189000,
+    "language": "JavaScript",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "tags": ["JavaScript", "Algorithms", "DSA"]
+  },
+  {
+    "id": "gr-8",
+    "owner": "sindresorhus",
+    "repo": "awesome",
+    "description": "Awesome lists about all kinds of interesting topics.",
+    "topic": "General",
+    "stars": 342000,
+    "language": "Multiple",
+    "url": "https://github.com/sindresorhus/awesome",
+    "tags": ["Awesome", "Resources", "All Topics"]
+  },
+  {
+    "id": "gr-9",
+    "owner": "practical-tutorials",
+    "repo": "project-based-learning",
+    "description": "Curated list of project-based tutorials to learn by building.",
+    "topic": "Projects",
+    "stars": 215000,
+    "language": "Multiple",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "tags": ["Projects", "Learning", "Build"]
+  },
+  {
+    "id": "gr-10",
+    "owner": "ossu",
+    "repo": "computer-science",
+    "description": "Path to a free self-taught education in Computer Science.",
+    "topic": "CS",
+    "stars": 175000,
+    "language": "Multiple",
+    "url": "https://github.com/ossu/computer-science",
+    "tags": ["CS Degree", "Free", "Self-taught"]
+  }
+]

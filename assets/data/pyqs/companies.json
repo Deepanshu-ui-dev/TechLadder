@@ -1,0 +1,112 @@
+[
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "logoAsset": "assets/logos/amazon.svg",
+    "color": "#FF9900",
+    "roles": ["SDE-1", "SDE-2", "Intern"],
+    "questionCount": 48,
+    "tags": ["Arrays", "Trees", "DP", "System Design"],
+    "leetcodeUrl": "https://leetcode.com/company/amazon/",
+    "questions": [
+      { "id": "amz-1", "title": "Two Sum", "difficulty": "Easy", "topic": "Arrays", "url": "https://leetcode.com/problems/two-sum/", "year": 2024 },
+      { "id": "amz-2", "title": "Merge Two Sorted Lists", "difficulty": "Easy", "topic": "Linked List", "url": "https://leetcode.com/problems/merge-two-sorted-lists/", "year": 2024 },
+      { "id": "amz-3", "title": "LRU Cache", "difficulty": "Medium", "topic": "Design", "url": "https://leetcode.com/problems/lru-cache/", "year": 2024 },
+      { "id": "amz-4", "title": "Word Ladder", "difficulty": "Hard", "topic": "BFS", "url": "https://leetcode.com/problems/word-ladder/", "year": 2023 },
+      { "id": "amz-5", "title": "Trapping Rain Water", "difficulty": "Hard", "topic": "Arrays", "url": "https://leetcode.com/problems/trapping-rain-water/", "year": 2024 },
+      { "id": "amz-6", "title": "Number of Islands", "difficulty": "Medium", "topic": "BFS/DFS", "url": "https://leetcode.com/problems/number-of-islands/", "year": 2024 },
+      { "id": "amz-7", "title": "Sliding Window Maximum", "difficulty": "Hard", "topic": "Stack", "url": "https://leetcode.com/problems/sliding-window-maximum/", "year": 2023 },
+      { "id": "amz-8", "title": "Course Schedule", "difficulty": "Medium", "topic": "Graphs", "url": "https://leetcode.com/problems/course-schedule/", "year": 2024 }
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "logoAsset": "assets/logos/microsoft.svg",
+    "color": "#00A4EF",
+    "roles": ["SDE", "SDE-2", "Intern"],
+    "questionCount": 42,
+    "tags": ["Trees", "DP", "Strings", "Arrays"],
+    "leetcodeUrl": "https://leetcode.com/company/microsoft/",
+    "questions": [
+      { "id": "ms-1", "title": "Reverse Linked List", "difficulty": "Easy", "topic": "Linked List", "url": "https://leetcode.com/problems/reverse-linked-list/", "year": 2024 },
+      { "id": "ms-2", "title": "Validate Binary Search Tree", "difficulty": "Medium", "topic": "Trees", "url": "https://leetcode.com/problems/validate-binary-search-tree/", "year": 2024 },
+      { "id": "ms-3", "title": "Serialize and Deserialize Binary Tree", "difficulty": "Hard", "topic": "Trees", "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/", "year": 2023 },
+      { "id": "ms-4", "title": "Maximum Subarray", "difficulty": "Medium", "topic": "DP", "url": "https://leetcode.com/problems/maximum-subarray/", "year": 2024 }
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "logoAsset": "assets/logos/google.svg",
+    "color": "#4285F4",
+    "roles": ["L3", "L4", "Intern"],
+    "questionCount": 58,
+    "tags": ["Graphs", "DP", "Math", "Bit Manipulation"],
+    "leetcodeUrl": "https://leetcode.com/company/google/",
+    "questions": [
+      { "id": "g-1", "title": "Median of Two Sorted Arrays", "difficulty": "Hard", "topic": "Binary Search", "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/", "year": 2024 },
+      { "id": "g-2", "title": "Longest Substring Without Repeating Characters", "difficulty": "Medium", "topic": "Sliding Window", "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "year": 2024 },
+      { "id": "g-3", "title": "Meeting Rooms II", "difficulty": "Medium", "topic": "Intervals", "url": "https://leetcode.com/problems/meeting-rooms-ii/", "year": 2024 }
+    ]
+  },
+  {
+    "id": "tcs",
+    "name": "TCS",
+    "logoAsset": "assets/logos/tcs.svg",
+    "color": "#005587",
+    "roles": ["Ninja", "Digital", "Prime"],
+    "questionCount": 64,
+    "tags": ["Aptitude", "Coding", "Reasoning"],
+    "leetcodeUrl": "https://www.lets-code.co.in/previousyearcodingquestion/tcspyq/",
+    "questions": [
+      { "id": "tcs-1", "title": "Find Second Largest", "difficulty": "Easy", "topic": "Arrays", "url": "https://leetcode.com/problems/second-largest-digit-in-a-string/", "year": 2024 },
+      { "id": "tcs-2", "title": "Spiral Matrix", "difficulty": "Medium", "topic": "Arrays", "url": "https://leetcode.com/problems/spiral-matrix/", "year": 2024 },
+      { "id": "tcs-3", "title": "String Rotation", "difficulty": "Easy", "topic": "Strings", "url": "https://leetcode.com/problems/rotate-string/", "year": 2024 }
+    ]
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys",
+    "logoAsset": "assets/logos/infosys.svg",
+    "color": "#007CC3",
+    "roles": ["SE", "SSE", "Digital Specialist"],
+    "questionCount": 38,
+    "tags": ["Arrays", "Strings", "Reasoning", "SQL"],
+    "leetcodeUrl": "https://leetcode.com/company/infosys/",
+    "questions": []
+  },
+  {
+    "id": "goldman",
+    "name": "Goldman Sachs",
+    "logoAsset": "assets/logos/goldman.svg",
+    "color": "#6DB33F",
+    "roles": ["Analyst", "Associate", "Intern"],
+    "questionCount": 36,
+    "tags": ["Graphs", "DP", "Math", "Design"],
+    "leetcodeUrl": "https://leetcode.com/company/goldman-sachs/",
+    "questions": []
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "logoAsset": "assets/logos/adobe.svg",
+    "color": "#FF0000",
+    "roles": ["SDE", "MTS", "Intern"],
+    "questionCount": 32,
+    "tags": ["Arrays", "Strings", "Trees"],
+    "leetcodeUrl": "https://leetcode.com/company/adobe/",
+    "questions": []
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "logoAsset": "assets/logos/meta.svg",
+    "color": "#0866FF",
+    "roles": ["E3", "E4", "E5", "Intern"],
+    "questionCount": 46,
+    "tags": ["Graphs", "Arrays", "Trees", "Heap"],
+    "leetcodeUrl": "https://leetcode.com/company/facebook/",
+    "questions": []
+  }
+]

@@ -1,0 +1,74 @@
+name: techladder
+description: Free developer roadmap platform for Indian students targeting top tech companies.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State & Navigation
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.6.0
+
+  # Network
+  dio: ^5.7.0
+
+  # Local Storage
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.3
+
+  # UI & Animations
+  flutter_animate: ^4.5.0
+  flutter_svg: ^2.0.10
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+  flutter_markdown: ^0.7.3
+
+  # Utilities
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.2
+  intl: ^0.19.0
+  path_provider: ^2.1.5
+  connectivity_plus: ^6.1.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/roadmaps_index.json
+    - assets/data/roadmaps/dsa.json
+    - assets/data/roadmaps/placement.json
+    - assets/data/roadmaps/system_design.json
+    - assets/data/roadmaps/javascript.json
+    - assets/data/roadmaps/react.json
+    - assets/data/roadmaps/ml.json
+    - assets/data/roadmaps/devops.json
+    - assets/data/pyqs/companies.json
+    - assets/data/youtube_playlists.json
+    - assets/data/github_repos.json
+    - assets/logos/amazon.svg
+    - assets/logos/microsoft.svg
+    - assets/logos/google.svg
+    - assets/logos/tcs.svg
+    - assets/logos/infosys.svg
+    - assets/logos/meta.svg
+    - assets/logos/adobe.svg
+    - assets/logos/goldman.svg
+    - assets/icons/github.svg
+    - assets/icons/leetcode.svg
+    - assets/icons/youtube.svg
+    - assets/lottie/empty_state.json
+    - assets/lottie/success.json
+    - assets/lottie/loading.json
