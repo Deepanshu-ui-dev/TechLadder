@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "source": "https://www.lets-code.co.in/",
+    "description": "Curated resources from Let's Code platform"
+  },
+  "categories": [
+    {
+      "id": "roadmaps",
+      "title": "Roadmaps",
+      "subtitle": "Step-by-step learning paths for DSA, System Design, React, Backend, DevOps, ML & AI.",
+      "icon": "map",
+      "color": "#10B981",
+      "links": [
+        {"label": "DSA Roadmap", "url": "https://www.lets-code.co.in/articles/roadmap/"},
+        {"label": "System Design", "url": "https://www.lets-code.co.in/articles/systemdesign/"},
+        {"label": "DevOps", "url": "https://www.lets-code.co.in/articles/devopsroadmap/"}
+      ]
+    },
+    {
+      "id": "interview-questions",
+      "title": "Interview Questions",
+      "subtitle": "Curated questions for OOPs, JavaScript, Python, React, DBMS, OS, SQL, Core Java & more.",
+      "icon": "help_center",
+      "color": "#3B82F6",
+      "links": [
+        {"label": "JavaScript", "url": "https://www.lets-code.co.in/interview/javascriptinterview/"},
+        {"label": "OOPs", "url": "https://www.lets-code.co.in/interview/oppsinterviewquestions/"},
+        {"label": "DBMS & OS", "url": "https://www.lets-code.co.in/interview/dbmsinterview/"},
+        {"label": "Placement", "url": "https://www.lets-code.co.in/interview/advanced-placement-interview-questions/"}
+      ]
+    },
+    {
+      "id": "company-pyqs",
+      "title": "Company PYQs",
+      "subtitle": "Previous year questions from TCS, Wipro, Infosys, Amazon, Microsoft, Cognizant & more.",
+      "icon": "business",
+      "color": "#8B5CF6",
+      "links": [
+        {"label": "Google", "url": "https://www.lets-code.co.in/previousyearcodingquestion/google-previous-year-coding-questions/"},
+        {"label": "Goldman Sachs", "url": "https://www.lets-code.co.in/previousyearcodingquestion/goldman-sachs-previous-year-coding-questions/"},
+        {"label": "Meta", "url": "https://www.lets-code.co.in/previousyearcodingquestion/meta-previous-year-coding-questions/"},
+        {"label": "Apple", "url": "https://www.lets-code.co.in/previousyearcodingquestion/apple-previous-year-coding-questions/"},
+        {"label": "Amazon", "url": "https://www.lets-code.co.in/previousyearcodingquestion/amazon-previous-year-coding-questions/"},
+        {"label": "TCS", "url": "https://www.lets-code.co.in/previousyearcodingquestion/tcspyq/"}
+      ]
+    },
+    {
+      "id": "100-days-dsa",
+      "title": "100 Days DSA Challenge",
+      "subtitle": "Community DSA contest series — compete, learn, and win prizes.",
+      "icon": "emoji_events",
+      "color": "#F59E0B",
+      "links": [
+        {"label": "Register Now", "url": "https://www.lets-code.co.in/100-days-dsa-challenge/"},
+        {"label": "View Challenges", "url": "https://www.lets-code.co.in/challenges/"}
+      ]
+    },
+    {
+      "id": "interview-experiences",
+      "title": "Interview Experiences",
+      "subtitle": "Real interview experiences from engineers at top companies.",
+      "icon": "forum",
+      "color": "#EC4899",
+      "links": [
+        {"label": "Read Experiences", "url": "https://www.lets-code.co.in/interview-experience/"},
+        {"label": "Share Yours", "url": "https://www.lets-code.co.in/interview-experience/new/"}
+      ]
+    },
+    {
+      "id": "placement-kit",
+      "title": "Placement Kit",
+      "subtitle": "Complete placement resources — templates, guides & ideas.",
+      "icon": "work",
+      "color": "#14B8A6",
+      "links": [
+        {"label": "Placement Kit", "url": "https://www.lets-code.co.in/articles/AtoZ-Placement-Kit/"},
+        {"label": "Cold Email Templates", "url": "https://www.lets-code.co.in/articles/coldemailtemplates/"},
+        {"label": "FYP Ideas", "url": "https://www.lets-code.co.in/articles/finalyearprojects/"}
+      ]
+    }
+  ]
+}

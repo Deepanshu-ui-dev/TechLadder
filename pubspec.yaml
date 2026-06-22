@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dart_devlens:
+    path: ./dart_devlens
 
   # State & Navigation
   flutter_riverpod: ^2.6.1
@@ -57,7 +59,7 @@ flutter:
     - assets/data/roadmaps/devops.json
     - assets/data/pyqs/companies.json
     - assets/data/youtube_playlists.json
-    - assets/data/github_repos.json
+    - assets/data/github_repos_data.json
     - assets/logos/amazon.svg
     - assets/logos/microsoft.svg
     - assets/logos/google.svg

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:dart_devlens/dart_devlens.dart';
 import 'package:techladder/core/router/app_router.dart';
 import 'package:techladder/core/theme/app_theme.dart';
 
@@ -15,7 +16,9 @@ void main() async {
   await Hive.openBox('lc_cache');
 
   runApp(
-    const ProviderScope(child: TechLadderApp()),
+    DevLens.wrap(
+      child: const ProviderScope(child: TechLadderApp()),
+    ),
   );
 }
 
